@@ -1,0 +1,440 @@
+CMakeFiles/MyPeepholePass.dir/src/my_pass.cpp.o: \
+ /home/vanya/projects/MyPeepholePass/src/my_pass.cpp \
+ /usr/include/stdc-predef.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Function.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/DenseSet.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ADL.h \
+ /usr/include/c++/14.2.1/type_traits \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/14.2.1/pstl/pstl_config.h \
+ /usr/include/c++/14.2.1/bits/version.h /usr/include/c++/14.2.1/iterator \
+ /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+ /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/14.2.1/bits/concept_check.h \
+ /usr/include/c++/14.2.1/debug/assertions.h \
+ /usr/include/c++/14.2.1/bits/stl_iterator.h \
+ /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+ /usr/include/c++/14.2.1/ext/type_traits.h \
+ /usr/include/c++/14.2.1/bits/move.h \
+ /usr/include/c++/14.2.1/bits/ptr_traits.h \
+ /usr/include/c++/14.2.1/bits/stream_iterator.h \
+ /usr/include/c++/14.2.1/iosfwd \
+ /usr/include/c++/14.2.1/bits/requires_hosted.h \
+ /usr/include/c++/14.2.1/bits/stringfwd.h \
+ /usr/include/c++/14.2.1/bits/memoryfwd.h \
+ /usr/include/c++/14.2.1/bits/postypes.h /usr/include/c++/14.2.1/cwchar \
+ /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h \
+ /usr/include/c++/14.2.1/debug/debug.h \
+ /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+ /usr/include/c++/14.2.1/streambuf \
+ /usr/include/c++/14.2.1/bits/localefwd.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/14.2.1/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/14.2.1/cctype \
+ /usr/include/ctype.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/endian.h /usr/include/bits/endianness.h \
+ /usr/include/c++/14.2.1/bits/ios_base.h \
+ /usr/include/c++/14.2.1/ext/atomicity.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
+ /usr/include/c++/14.2.1/bits/locale_classes.h \
+ /usr/include/c++/14.2.1/string \
+ /usr/include/c++/14.2.1/bits/char_traits.h \
+ /usr/include/c++/14.2.1/bits/allocator.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/14.2.1/bits/new_allocator.h /usr/include/c++/14.2.1/new \
+ /usr/include/c++/14.2.1/bits/exception.h \
+ /usr/include/c++/14.2.1/bits/functexcept.h \
+ /usr/include/c++/14.2.1/bits/exception_defines.h \
+ /usr/include/c++/14.2.1/bits/ostream_insert.h \
+ /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+ /usr/include/c++/14.2.1/bits/stl_function.h \
+ /usr/include/c++/14.2.1/backward/binders.h \
+ /usr/include/c++/14.2.1/ext/numeric_traits.h \
+ /usr/include/c++/14.2.1/bits/stl_algobase.h \
+ /usr/include/c++/14.2.1/bits/stl_pair.h \
+ /usr/include/c++/14.2.1/bits/utility.h \
+ /usr/include/c++/14.2.1/bits/predefined_ops.h \
+ /usr/include/c++/14.2.1/bit /usr/include/c++/14.2.1/concepts \
+ /usr/include/c++/14.2.1/bits/refwrap.h \
+ /usr/include/c++/14.2.1/bits/invoke.h \
+ /usr/include/c++/14.2.1/bits/range_access.h \
+ /usr/include/c++/14.2.1/initializer_list \
+ /usr/include/c++/14.2.1/bits/basic_string.h \
+ /usr/include/c++/14.2.1/ext/alloc_traits.h \
+ /usr/include/c++/14.2.1/bits/alloc_traits.h \
+ /usr/include/c++/14.2.1/bits/stl_construct.h \
+ /usr/include/c++/14.2.1/string_view \
+ /usr/include/c++/14.2.1/bits/functional_hash.h \
+ /usr/include/c++/14.2.1/bits/hash_bytes.h \
+ /usr/include/c++/14.2.1/bits/string_view.tcc \
+ /usr/include/c++/14.2.1/ext/string_conversions.h \
+ /usr/include/c++/14.2.1/cstdlib /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/14.2.1/bits/std_abs.h /usr/include/c++/14.2.1/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/14.2.1/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h \
+ /usr/include/c++/14.2.1/bits/charconv.h \
+ /usr/include/c++/14.2.1/bits/basic_string.tcc \
+ /usr/include/c++/14.2.1/bits/memory_resource.h \
+ /usr/include/c++/14.2.1/cstddef \
+ /usr/include/c++/14.2.1/bits/uses_allocator.h \
+ /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+ /usr/include/c++/14.2.1/tuple \
+ /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+ /usr/include/c++/14.2.1/system_error \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/14.2.1/stdexcept /usr/include/c++/14.2.1/exception \
+ /usr/include/c++/14.2.1/bits/exception_ptr.h \
+ /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+ /usr/include/c++/14.2.1/typeinfo \
+ /usr/include/c++/14.2.1/bits/nested_exception.h \
+ /usr/include/c++/14.2.1/bits/streambuf.tcc \
+ /usr/include/c++/14.2.1/utility \
+ /usr/include/c++/14.2.1/bits/stl_relops.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/DenseMap.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/DenseMapInfo.h \
+ /usr/include/c++/14.2.1/cassert /usr/include/assert.h \
+ /usr/include/c++/14.2.1/cstdint \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/EpochTracker.h \
+ /home/vanya/llvm/llvm-project/build/include/llvm/Config/abi-breaking.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/STLExtras.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/Hashing.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/DataTypes.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm-c/DataTypes.h \
+ /usr/include/inttypes.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/ErrorHandling.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Compiler.h \
+ /home/vanya/llvm/llvm-project/build/include/llvm/Config/llvm-config.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/SwapByteOrder.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/STLForwardCompat.h \
+ /usr/include/c++/14.2.1/optional \
+ /usr/include/c++/14.2.1/bits/enable_special_members.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/bit.h \
+ /usr/include/c++/14.2.1/limits \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/type_traits.h \
+ /usr/include/c++/14.2.1/algorithm \
+ /usr/include/c++/14.2.1/bits/stl_algo.h \
+ /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+ /usr/include/c++/14.2.1/bits/stl_heap.h \
+ /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+ /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/14.2.1/pstl/execution_defs.h \
+ /usr/include/c++/14.2.1/cstring /usr/include/string.h \
+ /usr/include/strings.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/iterator.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/iterator_range.h \
+ /usr/include/c++/14.2.1/functional \
+ /usr/include/c++/14.2.1/bits/std_function.h \
+ /usr/include/c++/14.2.1/unordered_map \
+ /usr/include/c++/14.2.1/bits/unordered_map.h \
+ /usr/include/c++/14.2.1/bits/hashtable.h \
+ /usr/include/c++/14.2.1/bits/hashtable_policy.h \
+ /usr/include/c++/14.2.1/ext/aligned_buffer.h \
+ /usr/include/c++/14.2.1/bits/node_handle.h \
+ /usr/include/c++/14.2.1/bits/erase_if.h /usr/include/c++/14.2.1/vector \
+ /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/14.2.1/bits/stl_vector.h \
+ /usr/include/c++/14.2.1/bits/stl_bvector.h \
+ /usr/include/c++/14.2.1/bits/vector.tcc /usr/include/c++/14.2.1/array \
+ /usr/include/c++/14.2.1/compare /usr/include/c++/14.2.1/memory \
+ /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14.2.1/bits/align.h \
+ /usr/include/c++/14.2.1/bits/unique_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/14.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/14.2.1/ext/concurrence.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14.2.1/bits/atomic_base.h \
+ /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14.2.1/backward/auto_ptr.h \
+ /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/AlignOf.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/MathExtras.h \
+ /usr/include/c++/14.2.1/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/MemAlloc.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/ReverseIteration.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/PointerLikeTypeTraits.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/StringRef.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/Twine.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/SmallVector.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ilist_node.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ilist_node_base.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ilist_node_options.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Argument.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Attributes.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm-c/Types.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm-c/ExternC.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ArrayRef.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/BitmaskEnum.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Alignment.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/CodeGen.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/ModRef.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/Sequence.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/raw_ostream.h \
+ /home/vanya/llvm/llvm-project/build/include/llvm/IR/Attributes.inc \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Value.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Use.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/CBindingWrapping.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Casting.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Value.def \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/BasicBlock.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ilist.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/simple_ilist.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ilist_base.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DebugProgramInstruction.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DbgVariableFragmentInfo.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DebugLoc.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/TrackingMDRef.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Metadata.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/PointerUnion.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Constant.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/User.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/LLVMContext.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DiagnosticHandler.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/FixedMetadataKinds.def \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Metadata.def \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Instruction.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/Bitfields.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/SymbolTableListTraits.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/AtomicOrdering.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Instruction.def \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/CallingConv.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DerivedTypes.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Type.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/TypeSize.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/GlobalObject.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/GlobalValue.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/OperandTraits.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/IRBuilder.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/ConstantFolder.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/ConstantFold.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/InstrTypes.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/StringMap.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/StringMapEntry.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/AllocatorBase.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/FMF.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Constants.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/APFloat.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/APInt.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/float128.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/FloatingPointMode.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/StringSwitch.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/ConstantRange.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/GEPNoWrapFlags.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Intrinsics.h \
+ /home/vanya/llvm/llvm-project/build/include/llvm/IR/IntrinsicEnums.inc \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/IRBuilderFolder.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Operator.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/MapVector.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DataLayout.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/TrailingObjects.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/FPEnv.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/GlobalVariable.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Instructions.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/CFG.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/GraphTraits.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/CmpPredicate.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/ValueHandle.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/PatternMatch.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/IntrinsicInst.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/PseudoProbe.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/CommandLine.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/SmallPtrSet.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/StringSaver.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Allocator.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Discriminator.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Error.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm-c/Error.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Debug.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/ErrorOr.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Format.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DebugInfoFlags.def \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Pass.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/PassAnalysisSupport.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/PassSupport.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/PassInfo.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/PassRegistry.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/RWMutex.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Threading.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/BitVector.h \
+ /usr/include/c++/14.2.1/mutex /usr/include/c++/14.2.1/bits/chrono.h \
+ /usr/include/c++/14.2.1/ratio /usr/include/c++/14.2.1/ctime \
+ /usr/include/c++/14.2.1/bits/parse_numbers.h \
+ /usr/include/c++/14.2.1/bits/std_mutex.h \
+ /usr/include/c++/14.2.1/bits/unique_lock.h \
+ /usr/include/c++/14.2.1/shared_mutex \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Passes/PassBuilder.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/CGSCCPassManager.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/LazyCallGraph.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/Any.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/SetVector.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/TargetLibraryInfo.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Module.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Comdat.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/GlobalAlias.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/GlobalIFunc.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/ProfileSummary.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/TargetParser/Triple.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/VersionTuple.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/PassManager.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/TinyPtrVector.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Analysis.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/PassManagerInternal.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/TypeName.h \
+ /usr/include/c++/14.2.1/list /usr/include/c++/14.2.1/bits/stl_list.h \
+ /usr/include/c++/14.2.1/bits/list.tcc /usr/include/c++/14.2.1/bitset \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/TargetLibraryInfo.def \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/MachinePassManager.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/FunctionExtras.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/MachineFunction.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/MachineBasicBlock.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/SparseBitVector.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/MachineInstr.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/PointerSumType.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/MemoryLocation.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/MachineMemOperand.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/PseudoSourceValue.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGenTypes/LowLevelType.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGenTypes/MachineValueType.h \
+ /home/vanya/llvm/llvm-project/build/include/llvm/CodeGen/GenVT.inc \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/MachineOperand.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/Register.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCRegister.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/TargetOpcodes.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/TargetOpcodes.def \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/InlineAsm.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCInstrDesc.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCSymbol.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCExpr.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/SMLoc.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCFragment.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/SmallString.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCFixup.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCInst.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCSymbolTableEntry.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/ArrayRecycler.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/MachineInstrBundleIterator.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/LaneBitmask.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Printable.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/BranchProbability.h \
+ /usr/include/c++/14.2.1/numeric \
+ /usr/include/c++/14.2.1/bits/stl_numeric.h \
+ /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/EHPersonalities.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Recycler.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Target/TargetOptions.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/MC/MCTargetOptions.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Compression.h \
+ /usr/include/c++/14.2.1/variant \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/CodeGen/RegAllocCommon.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Passes/OptimizationLevel.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/PGOOptions.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/IntrusiveRefCntPtr.h \
+ /usr/include/c++/14.2.1/atomic \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/IPO/Inliner.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/InlineAdvisor.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/InlineCost.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/InlineModelFeatureMaps.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/TensorSpec.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/Utils/ImportedFunctionsInliningStatistics.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/IPO/ModuleInliner.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/Scalar/LoopPassManager.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/PriorityWorklist.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/LoopAnalysisManager.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/LoopInfo.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/GenericLoopInfo.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/PostOrderIterator.h \
+ /usr/include/c++/14.2.1/set /usr/include/c++/14.2.1/bits/stl_tree.h \
+ /usr/include/c++/14.2.1/bits/stl_set.h \
+ /usr/include/c++/14.2.1/bits/stl_multiset.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/SetOperations.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/GenericDomTree.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/CFGDiff.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/CFGUpdate.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/LoopNestAnalysis.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/PassInstrumentation.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/Utils/LCSSA.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/Utils/LoopSimplify.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/Utils/LoopUtils.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/LoopAccessAnalysis.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/EquivalenceClasses.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/ScalarEvolution.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/FoldingSet.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/xxhash.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/ValueMap.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/Mutex.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/DiagnosticInfo.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/SourceMgr.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/MemoryBuffer.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/MemoryBufferRef.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/InstructionCost.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/VectorBuilder.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/Utils/ValueMapper.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Passes/PassPlugin.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Support/DynamicLibrary.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/Transforms/Utils/BasicBlockUtils.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/IR/Dominators.h \
+ /home/vanya/llvm/llvm-project/llvm/include/llvm/ADT/DepthFirstIterator.h

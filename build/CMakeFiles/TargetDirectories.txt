@@ -1,0 +1,8 @@
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/intrinsics_gen.dir
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/vt_gen.dir
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/omp_gen.dir
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/acc_gen.dir
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/target_parser_gen.dir
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/MyPeepholePass.dir
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/edit_cache.dir
+/home/vanya/projects/MyPeepholePass/build/CMakeFiles/rebuild_cache.dir

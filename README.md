@@ -3,7 +3,7 @@
 A learning project to develop an llvm pass that folds $(a+b)^3$
 
 ## Description
-The pass designed to fold expression like $a*a*a + 3*a*a*b + 3*a*b*b + b*b*b$ into $(a+b)*(a+b)*(a+b)$
+The pass designed to fold expression like a*a*a + 3*a*a*b + 3*a*b*b + b*b*b into (a+b)*(a+b)*(a+b)
 
 It works very straightforward:
 - firstly tries to capture a and b from IR
