@@ -1,0 +1,4 @@
+5.273843e-02 cube_of_sum.ll
+7.193565e-02 cube_of_sum_permutations.ll
+5.107236e-02 almost_pattern.ll
+5.195546e-02 use_of_result.ll
